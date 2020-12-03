@@ -1,0 +1,56 @@
+﻿@model InventoryMotus.Models.Cars
+<section class="content-header">
+    <h1>
+        Doctors
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content-header">
+    <h1>
+        Cars
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content container-fluid">
+    <!-- Horizontal Form -->
+    <div class="box box-info">
+        <div class="box-header with-border">
+            <h3 class="box-title">Add  Car</h3>
+        </div>
+        </div>
+        <!-- /.box-header -->
+        <!-- form start -->
+        <form class="form-horizontal" method="post" action="CreateCar">
+            <div class="box-body">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Model</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="Model" placeholder="Model">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Make</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="Make" placeholder="Make">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-sm-2 control-label">Color</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="Color" placeholder="Color">
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancel</button>
+                <button type="submit" class="btn btn-info pull-right">Create</button>
+            </div>
+            
+        </form>
+    
+    
+  
+</section>
